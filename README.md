@@ -1,4 +1,4 @@
-# GuardXP Gateway
+# GuardXP Proxy
 
 HTTP/HTTPS tracker blocking based on mitmproxy + ASTrack clean resources
 
@@ -6,8 +6,8 @@ HTTP/HTTPS tracker blocking based on mitmproxy + ASTrack clean resources
 
 1. Create base folder for certificates and geolocation DB:
    ```bash
-   mkdir -p ~/.guardxp-gw/geoip2_db
-   cd ~/.guardxp-gw
+   mkdir -p ~/.guardxp-px/geoip2_db
+   cd ~/.guardxp-px
    wget https://github.com/FyraLabs/geolite2/releases/download/1738783496/GeoLite2-Country.mmdb -P ./geoip2_db
    ```
 
@@ -30,7 +30,7 @@ HTTP/HTTPS tracker blocking based on mitmproxy + ASTrack clean resources
 ## Notes
 
 - The GeoLite2 database is used for geolocation services
-- Certificates are automatically generated in the `.guardxp-gw` directory
+- Certificates are automatically generated in the `.guardxp-px` directory
 - For production deployments, additional configuration may be required
 
 
