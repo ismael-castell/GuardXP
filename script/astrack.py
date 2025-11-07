@@ -225,6 +225,5 @@ class ASTrack:
                      + f"    hash: {hash}\n"
                      + f"    size (bytes): {original_size} -> {replacement_size}\n")
 
-
 addons = [ASTrack()]
 
