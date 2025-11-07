@@ -13,8 +13,8 @@ HTTP/HTTPS tracker blocking based on mitmproxy + ASTrack clean resources
 
 2. Clone the repository:
    ```bash
-   git clone https://github.com/ismael-castell/demo-guardxp-gateway.git
-   cd demo-guardxp-gateway
+   git clone https://github.com/ismael-castell/GuardXP.git
+   cd guardxp
    ```
 
 3. Start the application:
