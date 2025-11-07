@@ -1,6 +1,5 @@
 from urllib.parse import urlparse
 
-
 def load_list(list_path):
     data = []
     with open(list_path, 'r') as file:
@@ -26,4 +25,3 @@ def get_domain(url):
 def is_base_domain(url):
     parsed_url = urlparse(url)
     return (parsed_url.path == '' or parsed_url.path == '/'), parsed_url.netloc
-
